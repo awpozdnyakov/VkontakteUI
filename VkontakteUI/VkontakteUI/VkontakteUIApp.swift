@@ -11,7 +11,7 @@ import SwiftUI
 struct VkontakteUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
