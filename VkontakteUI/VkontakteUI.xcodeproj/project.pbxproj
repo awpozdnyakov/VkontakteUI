@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E1966DEB29C8A84B006DA920 /* VkontakteUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DEA29C8A84B006DA920 /* VkontakteUIApp.swift */; };
-		E1966DED29C8A84B006DA920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DEC29C8A84B006DA920 /* ContentView.swift */; };
+		E1966DED29C8A84B006DA920 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966DEC29C8A84B006DA920 /* LoginScreenView.swift */; };
 		E1966DEF29C8A84D006DA920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1966DEE29C8A84D006DA920 /* Assets.xcassets */; };
 		E1966DF229C8A84D006DA920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1966DF129C8A84D006DA920 /* Preview Assets.xcassets */; };
+		E1966E0E29D16DAF006DA920 /* SurnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E0D29D16DAF006DA920 /* SurnameView.swift */; };
+		E1966E1029D19974006DA920 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E0F29D19974006DA920 /* GroupView.swift */; };
+		E1966E1229D19BE2006DA920 /* CellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E1129D19BE2006DA920 /* CellModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1966DE729C8A84B006DA920 /* VkontakteUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkontakteUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1966DEA29C8A84B006DA920 /* VkontakteUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkontakteUIApp.swift; sourceTree = "<group>"; };
-		E1966DEC29C8A84B006DA920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1966DEC29C8A84B006DA920 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		E1966DEE29C8A84D006DA920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1966DF129C8A84D006DA920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1966E0D29D16DAF006DA920 /* SurnameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurnameView.swift; sourceTree = "<group>"; };
+		E1966E0F29D19974006DA920 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		E1966E1129D19BE2006DA920 /* CellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				E1966DEA29C8A84B006DA920 /* VkontakteUIApp.swift */,
-				E1966DEC29C8A84B006DA920 /* ContentView.swift */,
+				E1966DEC29C8A84B006DA920 /* LoginScreenView.swift */,
+				E1966E0D29D16DAF006DA920 /* SurnameView.swift */,
+				E1966E0F29D19974006DA920 /* GroupView.swift */,
+				E1966E1129D19BE2006DA920 /* CellModifier.swift */,
 				E1966DEE29C8A84D006DA920 /* Assets.xcassets */,
 				E1966DF029C8A84D006DA920 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1966DED29C8A84B006DA920 /* ContentView.swift in Sources */,
+				E1966DED29C8A84B006DA920 /* LoginScreenView.swift in Sources */,
+				E1966E1229D19BE2006DA920 /* CellModifier.swift in Sources */,
+				E1966E0E29D16DAF006DA920 /* SurnameView.swift in Sources */,
+				E1966E1029D19974006DA920 /* GroupView.swift in Sources */,
 				E1966DEB29C8A84B006DA920 /* VkontakteUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  VkontakteUIApp.swift
 //  VkontakteUI
 //
-//  Created by Наталья Рябкова on 20.03.2023.
+//  Created by Andrey Pozdnyakov on 20.03.2023.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct VkontakteUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            LoginScreenView()
         }
     }
 }

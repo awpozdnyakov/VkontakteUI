@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LoginScreenView.swift
 //  VkontakteUI
 //
 //  Created by Andrey Pozdnyakov on 20.03.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct LoginScreenView: View {
     
     @State private var login = ""
     @State private var password = ""
@@ -32,6 +32,8 @@ struct LoginView: View {
             .overlay(RoundedRectangle(cornerRadius: 15).stroke(.gray, lineWidth: 1))
             .padding(.top, 70)
             .padding(.bottom, 100)
+            SurnameView(surname: "Pozdnyakov")
+            GroupView(group: "Cover")
         }
     }
 }
@@ -50,6 +52,6 @@ struct CustomModifier: ViewModifier {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginScreenView()
     }
 }
