@@ -11,6 +11,12 @@ struct LoginScreenView: View {
     
     @State private var login = ""
     @State private var password = ""
+//    @Binding var isUserLoggedIn: Bool
+    @State private var shouldShowMainView: Bool = false
+    
+//    init(isUserLoggedIn: Binding<Bool>) {
+//        self._isUserLoggedIn = isUserLoggedIn
+//    }
     
     var body: some View {
         
@@ -25,16 +31,34 @@ struct LoginScreenView: View {
             TextField("Password", text: $password)
                 .modifier(CustomModifier())
             Button("Go", action: {
-                print("Go")
+                verifyLoginData()
             })
             .foregroundColor(.black)
             .padding()
             .overlay(RoundedRectangle(cornerRadius: 15).stroke(.gray, lineWidth: 1))
             .padding(.top, 70)
             .padding(.bottom, 100)
+            NavigationLink(destination: FriendsScreenView(), isActive:
+                            $shouldShowMainView) {
+                                EmptyView()
+            }
             SurnameView(surname: "Pozdnyakov")
+                .padding(.bottom, 5)
+
             GroupView(group: "Cover")
+                .padding(.bottom, 50)
         }
+        .overlay(RoundedRectangle(cornerRadius: 50).stroke(.gray, lineWidth: 1))
+        .padding(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
+        .ignoresSafeArea()
+    }
+    
+    private func verifyLoginData() {
+    if login == "111" && password == "111" {
+    } else {
+
+    }
+    password = ""
     }
 }
 
@@ -55,3 +79,4 @@ struct LoginView_Previews: PreviewProvider {
         LoginScreenView()
     }
 }
+

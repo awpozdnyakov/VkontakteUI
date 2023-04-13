@@ -14,6 +14,11 @@
 		E1966E0E29D16DAF006DA920 /* SurnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E0D29D16DAF006DA920 /* SurnameView.swift */; };
 		E1966E1029D19974006DA920 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E0F29D19974006DA920 /* GroupView.swift */; };
 		E1966E1229D19BE2006DA920 /* CellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1966E1129D19BE2006DA920 /* CellModifier.swift */; };
+		E1A6EA3029E837B000C1E4F8 /* FriendsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6EA2F29E837B000C1E4F8 /* FriendsScreenView.swift */; };
+		E1A6EA3229E837DA00C1E4F8 /* PhotoFriendsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6EA3129E837DA00C1E4F8 /* PhotoFriendsScreenView.swift */; };
+		E1A6EA3729E8385100C1E4F8 /* GroupsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6EA3629E8385100C1E4F8 /* GroupsScreenView.swift */; };
+		E1A6EA3929E8388300C1E4F8 /* NewsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6EA3829E8388300C1E4F8 /* NewsScreenView.swift */; };
+		E1A6EA3B29E8395100C1E4F8 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6EA3A29E8395100C1E4F8 /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		E1966E0D29D16DAF006DA920 /* SurnameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurnameView.swift; sourceTree = "<group>"; };
 		E1966E0F29D19974006DA920 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		E1966E1129D19BE2006DA920 /* CellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModifier.swift; sourceTree = "<group>"; };
+		E1A6EA2F29E837B000C1E4F8 /* FriendsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreenView.swift; sourceTree = "<group>"; };
+		E1A6EA3129E837DA00C1E4F8 /* PhotoFriendsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFriendsScreenView.swift; sourceTree = "<group>"; };
+		E1A6EA3629E8385100C1E4F8 /* GroupsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsScreenView.swift; sourceTree = "<group>"; };
+		E1A6EA3829E8388300C1E4F8 /* NewsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreenView.swift; sourceTree = "<group>"; };
+		E1A6EA3A29E8395100C1E4F8 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				E1966DEA29C8A84B006DA920 /* VkontakteUIApp.swift */,
-				E1966DEC29C8A84B006DA920 /* LoginScreenView.swift */,
-				E1966E0D29D16DAF006DA920 /* SurnameView.swift */,
-				E1966E0F29D19974006DA920 /* GroupView.swift */,
-				E1966E1129D19BE2006DA920 /* CellModifier.swift */,
+				E1A6EA3329E837EE00C1E4F8 /* Flows */,
+				E1A6EA3429E8380400C1E4F8 /* Views */,
+				E1A6EA3529E8382100C1E4F8 /* Modifires */,
 				E1966DEE29C8A84D006DA920 /* Assets.xcassets */,
 				E1966DF029C8A84D006DA920 /* Preview Content */,
 			);
@@ -74,6 +83,36 @@
 				E1966DF129C8A84D006DA920 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1A6EA3329E837EE00C1E4F8 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				E1966DEC29C8A84B006DA920 /* LoginScreenView.swift */,
+				E1A6EA2F29E837B000C1E4F8 /* FriendsScreenView.swift */,
+				E1A6EA3129E837DA00C1E4F8 /* PhotoFriendsScreenView.swift */,
+				E1A6EA3629E8385100C1E4F8 /* GroupsScreenView.swift */,
+				E1A6EA3829E8388300C1E4F8 /* NewsScreenView.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		E1A6EA3429E8380400C1E4F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1966E0F29D19974006DA920 /* GroupView.swift */,
+				E1966E0D29D16DAF006DA920 /* SurnameView.swift */,
+				E1A6EA3A29E8395100C1E4F8 /* ContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1A6EA3529E8382100C1E4F8 /* Modifires */ = {
+			isa = PBXGroup;
+			children = (
+				E1966E1129D19BE2006DA920 /* CellModifier.swift */,
+			);
+			path = Modifires;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +188,12 @@
 				E1966DED29C8A84B006DA920 /* LoginScreenView.swift in Sources */,
 				E1966E1229D19BE2006DA920 /* CellModifier.swift in Sources */,
 				E1966E0E29D16DAF006DA920 /* SurnameView.swift in Sources */,
+				E1A6EA3229E837DA00C1E4F8 /* PhotoFriendsScreenView.swift in Sources */,
+				E1A6EA3929E8388300C1E4F8 /* NewsScreenView.swift in Sources */,
+				E1A6EA3B29E8395100C1E4F8 /* ContainerView.swift in Sources */,
 				E1966E1029D19974006DA920 /* GroupView.swift in Sources */,
+				E1A6EA3729E8385100C1E4F8 /* GroupsScreenView.swift in Sources */,
+				E1A6EA3029E837B000C1E4F8 /* FriendsScreenView.swift in Sources */,
 				E1966DEB29C8A84B006DA920 /* VkontakteUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
